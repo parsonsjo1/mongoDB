@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://unirest.io/nodejs"></script>
+<script src="javascripts/comments.js"></script>
+
+</head>
+
+<body>
+<form id="commentForm" action="">
+  <label for="name">Jedi Name: </label><input type="text" id="Name" placeholder="Name"><br>
+  <label for="picture">Jedi picture (url): </label><input type="jpg" id="Picture" placeholder="Picture"><br>
+  <label for="comment">Say something to Yoda: </label><input type="text" id="Comment" placeholder="Comment"><br>
+</form>
+
+<button id="serialize">Serialize form values</button>
+<button id="getThem">Get Comments</button>
+<div id="json"></div>
+<div id="done"></div>
+<div id="comments"></div>
+<div id="jediPic"></div>
+<div id="yodaPic">
+	<img src="http://www.wired.com/wp-content/uploads/2015/08/Yoda-featured1-1200x630-e1446682207788.jpg" height="150" width="200"/>
+</div>
+<div id="jedi"></div>
+<div id="yoda"></div>
+</body>
+</html>
